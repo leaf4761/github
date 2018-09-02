@@ -166,7 +166,7 @@ Git管理的是修改，当用git add命令后，在工作区的第一次修改�
 
     $ git push <localRepositoryName> master
 
-类似的，也可从远程库克隆。创建一个远程仓库，勾选Initialize this repository with a README，用命令git clone克隆一个本地库（若使用ssh方式，需要把SSH Key添加到GitHub）：
+类似的，也可从远程库克隆。创建一个远程仓库，勾选Initialize this repository with a README，用命令git clone克隆一个本地库（若使用ssh方式，需要把SSH Key添加到GitHub），**任意进入本地一个目录即可，无需进行任何操作**：
 
     $ git clone git@github.com:<username>/<repository.git>
 
